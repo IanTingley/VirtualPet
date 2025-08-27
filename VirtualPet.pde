@@ -11,7 +11,7 @@ rect(150,200,300,150); //body
 arc(150,275,200,150,PI/2,3*PI/2);
 
 pushMatrix();
-translate(451,275);
+translate(450,275);
 rotate(PI*3/2);
 arc(0,0,150,200,0,PI);
 popMatrix();
@@ -40,4 +40,10 @@ popMatrix();
 fill(0,0,0);
 ellipse(110,265,35,35);
 ellipse(72,295,50,30);
+
+fill(250,250,250);
+ellipse(200,275,90,90);
+ellipse(310,275,90,90);
+ellipse(420,275,90,90);
+
 }
