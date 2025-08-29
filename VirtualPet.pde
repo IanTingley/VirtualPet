@@ -46,4 +46,7 @@ ellipse(200,275,90,90);
 ellipse(310,275,90,90);
 ellipse(420,275,90,90);
 
+textSize(20);
+text("This is a pillarbug, a mythical creature",100,100);
+
 }
