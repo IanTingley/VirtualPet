@@ -1,12 +1,18 @@
-
 void setup(){
 size(600,600);
 noStroke();
 background(250,50,50);
+fill(0,100,0);
+for(int i = 0; i<=500; i++) {
+  ellipse((int)random(0,600), (int)random(0,600), (int)random(1, 4), (int)random(1, 4));
+}  
 }
 
 
 void draw(){
+  
+
+  
 fill(0,300,0);
 rect(150,200,300,150); //body
 arc(150,275,200,150,PI/2,3*PI/2);
@@ -51,3 +57,4 @@ textSize(20);
 text("This is a pillarbug, a mythical creature",100,100);
 
 }
+
