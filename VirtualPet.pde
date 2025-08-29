@@ -2,6 +2,7 @@
 void setup(){
 size(600,600);
 noStroke();
+background(250,50,50);
 }
 
 
